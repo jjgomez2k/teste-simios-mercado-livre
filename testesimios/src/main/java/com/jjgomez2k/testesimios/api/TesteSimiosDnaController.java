@@ -23,7 +23,7 @@ public class TesteSimiosDnaController {
 
         return ResponseEntity.ok().build();
     }
-    
+
     @GetMapping("/stats")
     public ResponseEntity<StatsResponse> findStats(){
 
