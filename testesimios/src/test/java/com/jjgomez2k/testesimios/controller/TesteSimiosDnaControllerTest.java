@@ -1,6 +1,9 @@
 package com.jjgomez2k.testesimios.controller;
 
 import com.jjgomez2k.testesimios.api.TesteSimiosDnaController;
+import com.jjgomez2k.testesimios.exception.CustomExceptionHandler;
+import com.jjgomez2k.testesimios.model.StatsResponse;
+import com.jjgomez2k.testesimios.service.implementation.DnaServiceImplementation;
 import com.mongodb.MongoWriteException;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,9 +16,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import com.jjgomez2k.testesimios.exception.CustomExceptionHandler;
-import com.jjgomez2k.testesimios.model.StatsResponse;
-import com.jjgomez2k.testesimios.service.implementation.DnaServiceImplementation;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 

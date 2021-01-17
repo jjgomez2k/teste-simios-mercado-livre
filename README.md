@@ -1,7 +1,8 @@
-# teste-simios-mercado-livre
-Teste Símios - Mercado Livre
+# Teste Símios - Mercado Livre
 
-Made with:
+API to detect human or simian DNA sequences
+
+## Made with
 
 SpringBoot 2.3.8
 MongoDB
@@ -10,13 +11,39 @@ Lombok
 Junit and Mockito
 AWS
 
-Api link:
+### Prerequisites
 
-*http://testesimios-env.eba-ru4mcj7x.us-east-2.elasticbeanstalk.com/api
+Postman
 
-Make a POST request to the API with Postman *
+```
+https://dl.pstmn.io/download/latest/win64
+```
 
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Instructions
+
+Make a POST request to the API with Postman
+
+```
 http://testesimios-env.eba-ru4mcj7x.us-east-2.elasticbeanstalk.com/api/simian
+```
 
 With the following JSON body: String [] dna = {"CTGAGA", "CTGAGC", "TATTGT", "AGAGGG", "CCCCTA", "TCACTG"};
 
@@ -26,7 +53,9 @@ If it's invalid it will return a 403 status
 
 Make a GET request to the API with Postman *
 
+```
 http://testesimios-env.eba-ru4mcj7x.us-east-2.elasticbeanstalk.com/api/stats
+```
 
 It will return something like this: {
     "count_mutant_dna": 3,
@@ -36,17 +65,21 @@ It will return something like this: {
 
 We see the stats of all dna saved in the database
 
-Endpoints
+### Endpoints
 
+```
 Name: /simian
 Method: POST
 Content-Type: application/json
 Response: application/json
 Body:   String [] dna = {"CTGAGA", "CTGAGC", "TATTGT", "AGAGGG", "CCCCTA", "TCACTG"};
+```
 
+```
 Name: /stats
 Method: GET
 Content-Type: application/json
 Response: application/json
+```
 
-Created by Juan Jose Gomez Martinuzzo
+# Created by Juan Jose Gomez Martinuzzo

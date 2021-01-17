@@ -1,12 +1,12 @@
 package com.jjgomez2k.testesimios.api;
 
+import com.jjgomez2k.testesimios.model.SimiosRequest;
+import com.jjgomez2k.testesimios.model.StatsResponse;
+import com.jjgomez2k.testesimios.service.DnaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.jjgomez2k.testesimios.model.SimiosRequest;
-import com.jjgomez2k.testesimios.model.StatsResponse;
-import com.jjgomez2k.testesimios.service.DnaService;
 
 @RestController
 @RequestMapping("/api")

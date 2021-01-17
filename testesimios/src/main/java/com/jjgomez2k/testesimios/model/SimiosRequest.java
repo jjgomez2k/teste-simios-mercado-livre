@@ -1,6 +1,7 @@
 package com.jjgomez2k.testesimios.model;
 
 import lombok.Data;
+
 import java.util.Arrays;
 
 @Data

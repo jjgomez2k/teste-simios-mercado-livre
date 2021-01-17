@@ -1,15 +1,17 @@
 package com.jjgomez2k.testesimios.service.implementation;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import com.jjgomez2k.testesimios.document.DnaDocument;
 import com.jjgomez2k.testesimios.model.SimiosRequest;
 import com.jjgomez2k.testesimios.model.StatsResponse;
 import com.jjgomez2k.testesimios.repository.DnaRepository;
 import com.jjgomez2k.testesimios.service.DnaService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.concurrent.atomic.AtomicInteger;
+
 import static com.jjgomez2k.testesimios.util.MatrixUtils.*;
 
 @Service

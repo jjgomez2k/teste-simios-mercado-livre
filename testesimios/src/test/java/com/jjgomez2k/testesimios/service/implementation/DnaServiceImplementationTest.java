@@ -1,5 +1,8 @@
 package com.jjgomez2k.testesimios.service.implementation;
 
+import com.jjgomez2k.testesimios.model.SimiosRequest;
+import com.jjgomez2k.testesimios.model.StatsResponse;
+import com.jjgomez2k.testesimios.repository.DnaRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -8,9 +11,6 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
-import com.jjgomez2k.testesimios.model.SimiosRequest;
-import com.jjgomez2k.testesimios.model.StatsResponse;
-import com.jjgomez2k.testesimios.repository.DnaRepository;
 
 import java.math.BigDecimal;
 
