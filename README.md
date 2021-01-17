@@ -3,10 +3,15 @@
 Made with:
 
 SpringBoot 2.3.8
+
 MongoDB
+
 Spring Data
+
 Lombok
+
 Junit and Mockito
+
 AWS
 
 Api link:
@@ -38,14 +43,22 @@ We see the stats of all dna saved in the database
 Endpoints
 
 Name: /simian
+
 Method: POST
+
 Content-Type: application/json
+
 Response: application/json
+
 Body:   String [] dna = {"CTGAGA", "CTGAGC", "TATTGT", "AGAGGG", "CCCCTA", "TCACTG"};
 
 Name: /stats
+
 Method: GET
+
 Content-Type: application/json
+
 Response: application/json
+
 
 Created by Juan Jose Gomez Martinuzzo
