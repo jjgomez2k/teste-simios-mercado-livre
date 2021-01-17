@@ -23,7 +23,7 @@ It will return a 400 status because it's already saved in the database
 If you input a different valid dna array it will return 200 and saved it
 If it's invalid it will return a 403 status
 
-Make a GET request to the API with Postman *
+Make a GET request to the API with Postman(https://dl.pstmn.io/download/latest/win64)
 
 http://testesimios-env.eba-ru4mcj7x.us-east-2.elasticbeanstalk.com/api/stats
 
