@@ -54,7 +54,7 @@ Name: /simian
 Method: POST
 Content-Type: application/json
 Response: application/json
-Body:   String [] dna = {"CTGAGA", "CTGAGC", "TATTGT", "AGAGGG", "CCCCTA", "TCACTG"};
+Body:  String [] dna = {"CTGAGA", "CTGAGC", "TATTGT", "AGAGGG", "CCCCTA", "TCACTG"};
 ```
 
 ```
