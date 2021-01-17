@@ -1,5 +1,4 @@
-# teste-simios-mercado-livre
-Teste Símios - Mercado Livre
+# Teste Símios - Mercado Livre
 
 Made with:
 
