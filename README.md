@@ -40,7 +40,11 @@ It will return something like this: {
 
 We see the stats of all dna saved in the database
 
+
+
 Endpoints
+
+
 
 Name: /simian
 
@@ -52,6 +56,8 @@ Response: application/json
 
 Body:   String [] dna = {"CTGAGA", "CTGAGC", "TATTGT", "AGAGGG", "CCCCTA", "TCACTG"};
 
+
+
 Name: /stats
 
 Method: GET
@@ -59,6 +65,7 @@ Method: GET
 Content-Type: application/json
 
 Response: application/json
+
 
 
 Created by Juan Jose Gomez Martinuzzo
