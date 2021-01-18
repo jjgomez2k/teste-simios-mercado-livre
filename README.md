@@ -4,17 +4,17 @@ API to detect human or simian DNA sequences
 
 ## Made with
 
-SpringBoot 2.3.8
+* SpringBoot 2.3.8
 
-MongoDB
+* MongoDB
 
-Spring Data
+* Spring Data
 
-Lombok
+* Lombok
 
-Junit and Mockito
+* Junit and Mockito
 
-AWS
+* AWS
 
 ### Prerequisites
 
@@ -44,20 +44,24 @@ Make a GET request to the API with Postman(https://dl.pstmn.io/download/latest/w
 http://testesimios-env.eba-ru4mcj7x.us-east-2.elasticbeanstalk.com/api/stats
 ```
 
-It will return something like this: {
+It will return something like this: 
+
+```
+{
     "count_mutant_dna": 3,
     "count_human_dna": 0,
     "ratio": 3.000
 }
+```
 
 We see the stats of all dna saved in the database
 
 
 
-Endpoints
+## Endpoints
 
 
-
+```
 Name: /simian
 
 Method: POST
@@ -67,9 +71,9 @@ Content-Type: application/json
 Response: application/json
 
 Body:   String [] dna = {"CTGAGA", "CTGAGC", "TATTGT", "AGAGGG", "CCCCTA", "TCACTG"};
+```
 
-
-
+```
 Name: /stats
 
 Method: GET
@@ -80,5 +84,6 @@ Response: application/json
 ```
 
 
-
-Created by Juan Jose Gomez Martinuzzo
+```
+Created by Juan Jose Gomez Martinuzzo - 2021
+```
