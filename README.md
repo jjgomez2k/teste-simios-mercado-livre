@@ -32,7 +32,11 @@ Make a POST request to the API with Postman
 http://testesimios-env.eba-ru4mcj7x.us-east-2.elasticbeanstalk.com/api/simian
 ```
 
-With the following JSON body: String [] dna = {"CTGAGA", "CTGAGC", "TATTGT", "AGAGGG", "CCCCTA", "TCACTG"};
+With the following JSON body: 
+
+```
+String [] dna = {"CTGAGA", "CTGAGC", "TATTGT", "AGAGGG", "CCCCTA", "TCACTG"};
+```
 
 It will return a 400 status because it's already saved in the database
 If you input a different valid dna array it will return 200 and saved it
